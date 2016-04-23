@@ -58,3 +58,9 @@ tasks = [
 def get_tasks():
     text = jsonify({'tasks': tasks})
     return text
+
+
+@app.route('/api/v1.0/test', methods=['GET'])
+def get_tasks():
+    text = "hello"
+    return text
