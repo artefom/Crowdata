@@ -19,7 +19,7 @@
     <Name>Crowdata</Name>
     <RootNamespace>Crowdata</RootNamespace>
     <NameOfLastUsedPublishProfile>crowdata - Web Deploy</NameOfLastUsedPublishProfile>
-    <InterpreterId>{e8d57177-f43a-4008-a225-7a2a7e3583f9}</InterpreterId>
+    <InterpreterId>{ceb73673-438b-492f-8649-c225b24116f0}</InterpreterId>
     <InterpreterVersion>2.7</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -75,11 +75,14 @@
     <Content Include="Crowdata\templates\layout.html" />
   </ItemGroup>
   <ItemGroup>
-    <Interpreter Include="env\">
-      <Id>{e8d57177-f43a-4008-a225-7a2a7e3583f9}</Id>
+    <InterpreterReference Include="{9a7a9026-48c1-4688-9d5d-e5699d47d074}\2.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env2\">
+      <Id>{ceb73673-438b-492f-8649-c225b24116f0}</Id>
       <BaseInterpreter>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</BaseInterpreter>
       <Version>2.7</Version>
-      <Description>env (Python 64-bit 2.7)</Description>
+      <Description>env2 (Python 64-bit 2.7)</Description>
       <InterpreterPath>Scripts\python.exe</InterpreterPath>
       <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
       <LibraryPath>Lib\</LibraryPath>
