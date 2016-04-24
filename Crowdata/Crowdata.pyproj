@@ -31,12 +31,28 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Crowdata\Crawler.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Crowdata\DataCell.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Crowdata\DataMatrix.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Crowdata\RawInfo\RawInfo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Crowdata\RawInfo\RawInfo_instagram.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="runserver.py" />
     <Compile Include="Crowdata\__init__.py" />
     <Compile Include="Crowdata\views.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Crowdata\" />
+    <Folder Include="Crowdata\RawInfo\" />
     <Folder Include="Crowdata\static\" />
     <Folder Include="Crowdata\static\content\" />
     <Folder Include="Crowdata\static\fonts\" />

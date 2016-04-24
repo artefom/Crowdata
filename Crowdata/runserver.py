@@ -1,3 +1,13 @@
+﻿import pickle
+import requests
+import json
+import numpy as np
+import weakref
+import math
+import matplotlib.pyplot as plt
+from math import sin, cos, sqrt, atan2, radians
+import time
+
 """
 This script runs the Crowdata application using a development server.
 """
